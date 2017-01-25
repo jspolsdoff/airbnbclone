@@ -5,20 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Startup:
+To run the webpack server for the React app and the Rails app in the same console: foreman start -f Procfile.dev
+You'll need the foreman gem intalled (gem install forman)
 
 * ...

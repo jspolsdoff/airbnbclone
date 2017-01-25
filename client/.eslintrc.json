@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint-config-airbnb"],
+  "plugins": [ "jasmine", "react" ],
+  "rules": {
+    "strict": 0,
+    "indent": [ 2, 2, {"SwitchCase": 1}],
+    "linebreak-style": [ 2, "unix" ],
+    "max-len": [0],
+    "import/no-unresolved": [0],
+    "import/no-extraneous-dependencies": [0],
+    "import/extensions": [0],
+    "new-cap": [0],
+    "react/prefer-es6-class": [1],
+    "react/prefer-stateless-function": [0]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false
+  },
+  "env": {
+    "es6": true,
+    "commonjs": true,
+    "browser": true,
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "spread": true,
+    "classes": true,
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  }
+}
